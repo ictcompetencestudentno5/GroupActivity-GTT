@@ -1,0 +1,31 @@
+        body {
+            background: #111;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 40px;
+        }
+        #gameBox {
+            background: #222;
+            width: 400px;
+            padding: 20px;
+            margin: auto;
+            border-radius: 10px;
+        }
+        input {
+            width: 80%;
+            padding: 10px;
+            margin: 10px;
+            font-size: 18px;
+            border-radius: 5px;
+            border: none;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background: #3498db;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
