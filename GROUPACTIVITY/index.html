@@ -10,12 +10,22 @@
     <div id="gameBox">
         <h1>Rock - Paper - Scissors</h1>
 
+        <p>Select Difficulty</p>
+        <select id="difficultySelect" onchange="setDifficulty()">
+            <option value="easy">Normal</option>
+            <option value="normal">Easy</option>
+            <option value="hard">Hard</option>
+        </select>
+
+        <p id="difficultyText">Difficulty: NORMAL</p>
+
         <p>Enter a number:</p>
         <p>1 = Rock, 2 = Paper, 3 = Scissors</p>
 
         <input type="type" id="choiceInput" placeholder="Enter 1, 2, 3">
-        <button onclick="playGame()">Play</button>
+        <button id="playBtn" onclick="playGame()">Play</button>
 
+        <p id="waitTime"></p>
         <p id="PlEnResult"></p>
         <p id="result"></p>
     </div>
